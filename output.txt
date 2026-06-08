@@ -1,0 +1,363 @@
+Dataset Overview
+Rows before preprocessing: 9551
+Rows after preprocessing: 9551
+Columns: 21
+Duplicate rows: 0
+Missing values:
+- Restaurant ID: 0
+- Restaurant Name: 0
+- Country Code: 0
+- City: 0
+- Address: 0
+- Locality: 0
+- Locality Verbose: 0
+- Longitude: 0
+- Latitude: 0
+- Cuisines: 9
+- Average Cost for two: 0
+- Currency: 0
+- Has Table booking: 0
+- Has Online delivery: 0
+- Is delivering now: 0
+- Switch to order menu: 0
+- Price range: 0
+- Aggregate rating: 0
+- Rating color: 0
+- Rating text: 0
+- Votes: 0
+
+Exploratory Analysis Findings
+Number of unique cuisines: 146
+Number of unique cuisine combinations: 1826
+Number of cities: 141
+Price ranges available: 1, 2, 3, 4
+Average aggregate rating: 2.67
+Minimum aggregate rating: 0.00
+Maximum aggregate rating: 4.90
+
+Cuisine Analysis
+Most common cuisines:
+- north indian: 3960
+- chinese: 2735
+- fast food: 1986
+- mughlai: 995
+- italian: 764
+- bakery: 745
+- continental: 736
+- cafe: 703
+- desserts: 653
+- south indian: 636
+Most common cuisine combinations:
+- north indian: 936
+- north indian, chinese: 511
+- chinese: 354
+- fast food: 354
+- north indian, mughlai: 334
+- cafe: 299
+- bakery: 218
+- north indian, mughlai, chinese: 197
+- bakery, desserts: 170
+- street food: 149
+Average rating by cuisine:
+- sunda: 4.90
+- b�_rek: 4.70
+- taiwanese: 4.65
+- ramen: 4.50
+- dim sum: 4.47
+- hawaiian: 4.41
+- d�_ner: 4.40
+- bubble tea: 4.40
+- curry: 4.40
+- kebab: 4.38
+Restaurant distribution by cuisine:
+- north indian: 3960
+- chinese: 2735
+- fast food: 1986
+- mughlai: 995
+- italian: 764
+- bakery: 745
+- continental: 736
+- cafe: 703
+- desserts: 653
+- south indian: 636
+- street food: 562
+- american: 390
+- pizza: 381
+- mithai: 380
+- burger: 251
+
+City Analysis
+Average rating by city:
+- inner city: 4.90
+- quezon city: 4.80
+- makati city: 4.65
+- pasig city: 4.63
+- mandaluyong city: 4.62
+- beechworth: 4.60
+- london: 4.54
+- taguig city: 4.53
+- secunderabad: 4.50
+- lincoln: 4.50
+Restaurant distribution by city:
+- new delhi: 5473
+- gurgaon: 1118
+- noida: 1080
+- faridabad: 251
+- ghaziabad: 25
+- ahmedabad: 21
+- amritsar: 21
+- bhubaneshwar: 21
+- guwahati: 21
+- lucknow: 21
+- bras�_lia: 20
+- rio de janeiro: 20
+- s��o paulo: 20
+- albany: 20
+- athens: 20
+
+Price Range Analysis
+Average rating by price range:
+- Price range 1: 2.00
+- Price range 2: 2.94
+- Price range 3: 3.68
+- Price range 4: 3.82
+Restaurant distribution by price range:
+- Price range 1: 4444
+- Price range 2: 3113
+- Price range 3: 1408
+- Price range 4: 586
+
+Additional Dataset Analysis
+Top 10 cities by restaurant count:
+- new delhi: 5473
+- gurgaon: 1118
+- noida: 1080
+- faridabad: 251
+- ghaziabad: 25
+- ahmedabad: 21
+- amritsar: 21
+- bhubaneshwar: 21
+- guwahati: 21
+- lucknow: 21
+Top 10 cuisines by restaurant count:
+- north indian: 3960
+- chinese: 2735
+- fast food: 1986
+- mughlai: 995
+- italian: 764
+- bakery: 745
+- continental: 736
+- cafe: 703
+- desserts: 653
+- south indian: 636
+Top 10 cuisine combinations by restaurant count:
+- north indian: 936
+- north indian, chinese: 511
+- chinese: 354
+- fast food: 354
+- north indian, mughlai: 334
+- cafe: 299
+- bakery: 218
+- north indian, mughlai, chinese: 197
+- bakery, desserts: 170
+- street food: 149
+Average rating by city:
+- inner city: 4.90
+- quezon city: 4.80
+- makati city: 4.65
+- pasig city: 4.63
+- mandaluyong city: 4.62
+- beechworth: 4.60
+- london: 4.54
+- taguig city: 4.53
+- secunderabad: 4.50
+- lincoln: 4.50
+Average rating by cuisine:
+- sunda: 4.90
+- b�_rek: 4.70
+- taiwanese: 4.65
+- ramen: 4.50
+- dim sum: 4.47
+- hawaiian: 4.41
+- d�_ner: 4.40
+- bubble tea: 4.40
+- curry: 4.40
+- kebab: 4.38
+Average rating by price range:
+- Price range 1: 2.00
+- Price range 2: 2.94
+- Price range 3: 3.68
+- Price range 4: 3.82
+Average rating by online delivery availability:
+- no: 2.47
+- yes: 3.25
+Average rating by table booking availability:
+- no: 2.56
+- yes: 3.44
+Distribution of restaurants across price ranges:
+- Price range 1: 4444
+- Price range 2: 3113
+- Price range 3: 1408
+- Price range 4: 586
+Restaurants with online delivery: 2451 (25.66%)
+Restaurants with table booking: 1158 (12.12%)
+Restaurants with aggregate rating greater than 4.0: 1114 (11.66%)
+Highest rated cuisine categories:
+- sunda: 4.90
+- b�_rek: 4.70
+- taiwanese: 4.65
+- ramen: 4.50
+- dim sum: 4.47
+- hawaiian: 4.41
+- d�_ner: 4.40
+- bubble tea: 4.40
+- curry: 4.40
+- kebab: 4.38
+Lowest rated cuisine categories:
+- cuisine varies: 0.00
+- mineira: 0.00
+- armenian: 1.30
+- awadhi: 1.57
+- moroccan: 1.62
+- nepalese: 1.66
+- drinks only: 1.75
+- afghani: 1.97
+- mithai: 2.07
+- north eastern: 2.09
+Highest rated cities:
+- inner city: 4.90
+- quezon city: 4.80
+- makati city: 4.65
+- pasig city: 4.63
+- mandaluyong city: 4.62
+- beechworth: 4.60
+- london: 4.54
+- taguig city: 4.53
+- secunderabad: 4.50
+- lincoln: 4.50
+Lowest rated cities:
+- faridabad: 1.87
+- noida: 2.04
+- mc millan: 2.40
+- montville: 2.40
+- new delhi: 2.44
+- paynesville: 2.60
+- gurgaon: 2.65
+- ghaziabad: 2.85
+- mayfield: 2.90
+- consort: 3.00
+
+Recommendation Model Information
+Recommendation approach used: Content-based filtering with TF-IDF vectorization, StandardScaler, and cosine similarity
+Features used: Cuisines, City, Price range, Aggregate rating, Has Online delivery, Has Table booking
+Number of restaurants considered: 9551
+Number of restaurants used after preprocessing: 9551
+Number of unique cuisines: 146
+Number of cities: 141
+Number of recommendation features generated: 301
+
+Sample Recommendations
+Restaurant Name: Le Petit Souffle
+Recommended Restaurants:
+- Izakaya Kikufuji | City: makati city | Cuisines: japanese | Price Range: 3 | Aggregate Rating: 4.50 | Similarity Score: 0.9567
+- Restaurant Mosaic @ The Orient | City: pretoria | Cuisines: french | Price Range: 4 | Aggregate Rating: 4.90 | Similarity Score: 0.8609
+- Bonne Bouche | City: new delhi | Cuisines: italian, french | Price Range: 3 | Aggregate Rating: 4.10 | Similarity Score: 0.8558
+- Restaurant Gordon Ramsay | City: london | Cuisines: french | Price Range: 4 | Aggregate Rating: 4.70 | Similarity Score: 0.8501
+- La Plage | City: goa | Cuisines: seafood, french | Price Range: 3 | Aggregate Rating: 4.60 | Similarity Score: 0.8484
+
+Restaurant Name: RR China Tawun
+Recommended Restaurants:
+- Tulsi Ram Chinese Hut | City: new delhi | Cuisines: chinese | Price Range: 1 | Aggregate Rating: 0.00 | Similarity Score: 1.0000
+- 6 Pack Momos | City: new delhi | Cuisines: chinese | Price Range: 1 | Aggregate Rating: 0.00 | Similarity Score: 1.0000
+- Foody Dragon | City: new delhi | Cuisines: chinese | Price Range: 1 | Aggregate Rating: 0.00 | Similarity Score: 1.0000
+- Craving Cure | City: new delhi | Cuisines: chinese | Price Range: 1 | Aggregate Rating: 0.00 | Similarity Score: 1.0000
+- Hot Pot | City: new delhi | Cuisines: chinese | Price Range: 1 | Aggregate Rating: 0.00 | Similarity Score: 1.0000
+
+Restaurant Name: Chilli Tadka
+Recommended Restaurants:
+- Tandoori Kebab | City: new delhi | Cuisines: north indian | Price Range: 1 | Aggregate Rating: 0.00 | Similarity Score: 1.0000
+- Puran Dhaba | City: new delhi | Cuisines: north indian | Price Range: 1 | Aggregate Rating: 0.00 | Similarity Score: 1.0000
+- Balaji Dhaba | City: new delhi | Cuisines: north indian | Price Range: 1 | Aggregate Rating: 0.00 | Similarity Score: 1.0000
+- Grover Eating Point | City: new delhi | Cuisines: north indian | Price Range: 1 | Aggregate Rating: 0.00 | Similarity Score: 1.0000
+- Hotel 121 Shakahari | City: new delhi | Cuisines: north indian | Price Range: 1 | Aggregate Rating: 0.00 | Similarity Score: 1.0000
+
+Restaurant Name: Walter's Coffee Roastery
+Recommended Restaurants:
+- Dem Karak�_y | City: ��stanbul | Cuisines: cafe | Price Range: 2 | Aggregate Rating: 4.50 | Similarity Score: 0.9875
+- Starbucks | City: ��stanbul | Cuisines: cafe | Price Range: 2 | Aggregate Rating: 4.90 | Similarity Score: 0.9680
+- J'adore Chocolatier | City: ��stanbul | Cuisines: desserts | Price Range: 2 | Aggregate Rating: 4.70 | Similarity Score: 0.9325
+- Karak�_y G�_ll�_o��lu | City: ��stanbul | Cuisines: desserts, b�_rek | Price Range: 2 | Aggregate Rating: 4.70 | Similarity Score: 0.8405
+- Valonia | City: ��stanbul | Cuisines: restaurant cafe, desserts | Price Range: 3 | Aggregate Rating: 4.20 | Similarity Score: 0.7430
+
+Recommendation Metrics
+Average similarity score across all generated recommendations: 0.9422
+Highest similarity score observed: 1.0000
+Lowest similarity score observed: 0.7430
+Number of recommendation features generated: 301
+Number of restaurants used after preprocessing: 9551
+Number of unique cuisines: 146
+Number of unique cuisine combinations: 1826
+Number of unique cities: 141
+Restaurant Name: Le Petit Souffle
+- Average similarity score: 0.8744
+- Number of recommendations generated: 5
+Restaurant Name: RR China Tawun
+- Average similarity score: 1.0000
+- Number of recommendations generated: 5
+Restaurant Name: Chilli Tadka
+- Average similarity score: 1.0000
+- Number of recommendations generated: 5
+Restaurant Name: Walter's Coffee Roastery
+- Average similarity score: 0.8943
+- Number of recommendations generated: 5
+
+Recommendation Quality Checks
+Restaurant Name: Le Petit Souffle
+- Recommendations checked: 5
+- Recommendations sharing at least one cuisine: 5
+- Recommendations sharing the same price range: 3
+- Recommendations from the same city: 1
+- Average rating difference: 0.28
+- Average price range difference: 0.40
+Restaurant Name: RR China Tawun
+- Recommendations checked: 5
+- Recommendations sharing at least one cuisine: 5
+- Recommendations sharing the same price range: 5
+- Recommendations from the same city: 5
+- Average rating difference: 0.00
+- Average price range difference: 0.00
+Restaurant Name: Chilli Tadka
+- Recommendations checked: 5
+- Recommendations sharing at least one cuisine: 5
+- Recommendations sharing the same price range: 5
+- Recommendations from the same city: 5
+- Average rating difference: 0.00
+- Average price range difference: 0.00
+Restaurant Name: Walter's Coffee Roastery
+- Recommendations checked: 5
+- Recommendations sharing at least one cuisine: 2
+- Recommendations sharing the same price range: 4
+- Recommendations from the same city: 5
+- Average rating difference: 0.60
+- Average price range difference: 0.20
+
+
+
+Results Discussion (USER)
+
+In total, there were 9551 restaurants in 141 cities in the dataset which contained details
+ such as cuisines offered by each establishment, price range, ratings, online delivery, and table booking availability.
+According to the findings from the analysis of cuisines, the top three categories in terms of frequency were North Indian,
+ Chinese, and Fast Food. It is also evident from the analysis that the majority of the restaurants were either in the lower 
+ or medium price ranges while relatively few establishments were in the highest price range.
+Restaurants offering online delivery service and providing table booking tended to have higher average ratings
+ when compared to other restaurants that lacked these two facilities. Additionally, it is worth noting that
+  higher price ranges had better ratings on average.
+
+Content-based recommendation approach was used in the development of a restaurant recommendation system by 
+employing various features such as cuisine type, location, price range, average ratings, online delivery, 
+and table booking status. The TF-IDF vectorization technique and cosine similarity measurement methods were
+ applied in finding similar restaurants and generating recommendations.
+
+As a result, similar restaurants with regard to cuisine types and price range were assigned high similarity
+ measures. Recommendation quality tests revealed that many
